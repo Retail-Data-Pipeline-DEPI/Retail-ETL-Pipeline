@@ -1,4 +1,4 @@
-# RetailFlow: End-to-End Retail Data Engineering Pipeline
+# Retail ETL Pipeline
 
 ## 📌 Project Overview
 This project is part of the **DEPI (Digital Egypt Pioneers Initiative)** - Microsoft Data Engineering Track. It demonstrates a complete ETL pipeline for retail datasets, focusing on scalability and automation.
