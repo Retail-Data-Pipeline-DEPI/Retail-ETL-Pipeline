@@ -46,9 +46,12 @@ Retail-ETL-Pipeline/
 │   ├── test_ingestion.py
 │   └── test_transformation.py
 │
-├── docs/
+├── docs/                       # مجلد التوثيق
 │   ├── architecture.png
-│   └── data_dictionary.md
+│   ├── data_dictionary.md
+│   └── presentation/           # هنا تضعون ملفات العرض التقديمي
+│       ├── Retail_ETL_Presentation.pptx
+│       └── Retail_ETL_Presentation.pdf
 │
 ├── .gitignore
 ├── requirements.txt
