@@ -14,6 +14,46 @@ The project is executed by a dedicated data engineering team, collaborating to b
 *   **Osama Nour El-Din Mohammed** - Data Engineer
 *   **Nagham Abd Elraouf Elbayoumy Rizk** - Data Engineer
 
+Retail-ETL-Pipeline/
+│
+├── dags/
+│   ├── retail_etl_dag.py
+│   └── config_dag.py
+│
+├── src/
+│   ├── __init__.py
+│   ├── ingestion/
+│   │   ├── __init__.py
+│   │   ├── sql_ingestion.py
+│   │   └── parquet_ingestion.py
+│   │
+│   ├── transformation/
+│   │   ├── __init__.py
+│   │   ├── bronze_to_silver.py
+│   │   └── silver_to_gold.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── spark_session.py
+│       └── logger.py
+│
+├── config/
+│   ├── db_config.json
+│   └── spark_config.json
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_ingestion.py
+│   └── test_transformation.py
+│
+├── docs/
+│   ├── architecture.png
+│   └── data_dictionary.md
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
+
 ### 1.2. Project Methodology & Timeline
 The project follows an iterative, agile-based approach tailored for data engineering, divided into the following key phases:
 1.  **Phase 1: Planning & Infrastructure Setup:** Defining the architecture, setting up Azure Data Lake, and initializing the Apache Airflow environment.
