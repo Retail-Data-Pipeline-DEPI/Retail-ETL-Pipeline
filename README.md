@@ -1,9 +1,10 @@
 # 🛒 Retail ETL Pipeline - DEPI Graduation Project
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Apache Airflow](https://imgshields.io/badge/Apache%20Airflow-Orchestration-green)
-![PySpark](https://img.shields.io/badge/PySpark-Data%20Processing-orange)
-![Azure](https://img.shields.io/badge/Azure-Data%20Lake-blue)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 
 ## 📌 Overview
 This project is part of the **DEPI (Digital Egypt Pioneers Initiative)** - Microsoft Data Engineering Track. It demonstrates a complete, scalable, and automated ETL (Extract, Transform, Load) pipeline tailored for the retail sector. 
