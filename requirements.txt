@@ -1,0 +1,37 @@
+# ==========================================
+# 🛒 Retail ETL Pipeline - Requirements
+# ==========================================
+
+# --- Core Data Processing ---
+pyspark>=3.3.0
+pandas>=2.0.0
+numpy>=1.23.0
+
+# --- Database Connectors (SQL & ORM) ---
+SQLAlchemy>=2.0.0
+pyodbc>=4.0.39       # الأساسي للاتصال بـ Azure SQL و SQL Server
+psycopg2-binary>=2.9 # إذا كان هناك مصادر بيانات PostgreSQL
+pymysql>=1.1.0       # إذا كان هناك مصادر بيانات MySQL
+
+# --- Azure Cloud Integration ---
+azure-storage-file-datalake>=12.14.0  # للتعامل مع Azure Data Lake Gen2
+azure-identity>=1.14.0                # لإدارة صلاحيات الدخول السحابية
+
+# --- Web Scraping (Competitor Data) ---
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+
+# --- Orchestration (Airflow) ---
+# Note: In production, Airflow is usually run via Docker, 
+# but adding it here helps with local linting and autocomplete.
+apache-airflow>=2.7.0
+apache-airflow-providers-microsoft-azure>=8.0.0  # لربط Airflow بخدمات Azure
+
+# --- Utilities & Configuration ---
+python-dotenv>=1.0.0   # لقراءة المتغيرات السرية (Passwords) من ملف .env
+pyarrow>=14.0.1        # مهم جداً للتعامل مع ملفات الـ Parquet بكفاءة مع Pandas/Spark
+
+# --- Testing ---
+pytest>=7.4.0
