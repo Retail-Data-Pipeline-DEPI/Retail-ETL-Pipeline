@@ -60,12 +60,15 @@ Retail-ETL-Pipeline/
 │   ├── test_ingestion.py
 │   └── test_transformation.py
 │
-├── docs/                        # Project Documentation
-│   ├── architecture.png
-│   ├── data_dictionary.md
-│   └── presentation/            
-│       ├── Retail_ETL_Presentation.pptx
-│       └── Retail_ETL_Presentation.pdf
+├── docs/
+│   ├── 01_Project_Proposal.md 
+│   ├── 02_Requirements.md        
+│   ├── 03_System_Architecture.md  
+│   └── 04_Testing_and_Deployment.m   # Project Documentation
+│   ├── 05_architecture.png
+│   ├── 06_data_dictionary.md
+│   └── 07_Retail_ETL_Presentation.pptx
+│   └── 07_Retail_ETL_Presentation.pdf
 │
 ├── .gitignore
 ├── requirements.txt
