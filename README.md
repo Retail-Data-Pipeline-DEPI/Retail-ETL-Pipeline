@@ -18,9 +18,10 @@ Beyond standard data movement, this pipeline acts as a **Commercial Control Towe
 ### 1.1. Team Structure
 This project is architected and executed by a dedicated data engineering team:
 * **Esraa Soliman Mubarak** - Project Leader & Data Engineer
+* **Nagham Abd Elraouf Elbayoumy Rizk** - Data Engineer
 * **Ali Hussein Sayed** - Data Engineer
 * **Osama Nour El-Din Mohammed** - Data Engineer
-* **Nagham Abd Elraouf Elbayoumy Rizk** - Data Engineer
+
 
 ### 1.2. Project Methodology & Timeline
 The project follows an iterative, Agile-based approach tailored for data engineering, divided into the following key phases (Sprints):
