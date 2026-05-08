@@ -63,13 +63,12 @@ Retail-ETL-Pipeline/
 │
 ├── docs/
 │   ├── 01_Project_Proposal.md 
-│   ├── 02_Requirements.md        
-│   ├── 03_System_Architecture.md  
-│   └── 04_Testing_and_Deployment.m   # Project Documentation
-│   ├── 05_architecture.png
-│   ├── 06_data_dictionary.md
-│   └── 07_Retail_ETL_Presentation.pptx
-│   └── 07_Retail_ETL_Presentation.pdf
+│   ├── 02__System_Architecture.md       
+│   ├── 03_Testing_and_Deployment.m   # Project Documentation
+│   └── 04_architecture.png
+│   ├── 05_data_dictionary.md
+│   ├── 06_Retail_ETL_Presentation.pptx
+│   └── 06_Retail_ETL_Presentation.pdf
 │
 ├── .gitignore
 ├── requirements.txt
