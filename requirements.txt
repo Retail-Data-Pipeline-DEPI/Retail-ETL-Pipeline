@@ -9,13 +9,13 @@ numpy>=1.23.0
 
 # --- Database Connectors (SQL & ORM) ---
 SQLAlchemy>=2.0.0
-pyodbc>=4.0.39       # الأساسي للاتصال بـ Azure SQL و SQL Server
-psycopg2-binary>=2.9 # إذا كان هناك مصادر بيانات PostgreSQL
-pymysql>=1.1.0       # إذا كان هناك مصادر بيانات MySQL
+pyodbc>=4.0.39       # Main connection to Azure SQL و SQL Server
+psycopg2-binary>=2.9 # If there are any data sources came from PostgreSQL
+pymysql>=1.1.0       # If there are data sources to  MySQL
 
 # --- Azure Cloud Integration ---
-azure-storage-file-datalake>=12.14.0  # للتعامل مع Azure Data Lake Gen2
-azure-identity>=1.14.0                # لإدارة صلاحيات الدخول السحابية
+azure-storage-file-datalake>=12.14.0  # To act with Azure Data Lake Gen2
+azure-identity>=1.14.0                # To manage cloud entry Polices
 
 # --- Web Scraping (Competitor Data) ---
 beautifulsoup4>=4.12.0
@@ -27,11 +27,11 @@ webdriver-manager>=4.0.1
 # Note: In production, Airflow is usually run via Docker, 
 # but adding it here helps with local linting and autocomplete.
 apache-airflow>=2.7.0
-apache-airflow-providers-microsoft-azure>=8.0.0  # لربط Airflow بخدمات Azure
+apache-airflow-providers-microsoft-azure>=8.0.0  # To connect Airflow with Azure services
 
 # --- Utilities & Configuration ---
-python-dotenv>=1.0.0   # لقراءة المتغيرات السرية (Passwords) من ملف .env
-pyarrow>=14.0.1        # مهم جداً للتعامل مع ملفات الـ Parquet بكفاءة مع Pandas/Spark
+python-dotenv>=1.0.0   # To read secret variables(Passwords) from .env file
+pyarrow>=14.0.1        # Very important to act with Parquet files with high-performance Pandas/Spark
 
 # --- Testing ---
 pytest>=7.4.0
