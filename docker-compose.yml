@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  # 1. DataBase Container (SQL Server)
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: retail_db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=MyPass123 # SSMS Password
+    ports:
+      - "1433:1433"
+
+  # 2. Metadata Container for Airflow (Postgres)
+  postgres:
+    image: postgres:13
+    container_name: airflow_db
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+
+  # 3. (Airflow)
+  airflow:
+    image: apache/airflow:2.7.1
+    container_name: airflow_app
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data_source:/opt/airflow/data_source
+    ports:
+      - "8080:8080" #Port for open Airflow

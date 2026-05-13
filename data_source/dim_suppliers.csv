@@ -1,0 +1,55 @@
+﻿supplier_id,supplier_name,contact_person,phone_number,email,city,tax_id,payment_terms,status,entry_date
+1,جهينة للصناعات الغذائية,Rhonda Williams,0158626259,info@جهينة_eg.com,North Marymouth,759-351-898,Net 60 Days,1,2023-07-20
+2,بيتي (المراعي),Dawn Marks,0116027231,info@بيتي_eg.com,South Alyssaview,782-458-901,Net 60 Days,1,2021-07-06
+3,دومتي,Renee Woods,0118031320,info@دومتي_eg.com,Pearsonchester,531-172-379,Cash,1,2023-02-28
+4,لمار مصر,Michael Elliott,0127901440,info@لمار_eg.com,West Courtney,992-550-754,Cash,1,2023-06-22
+5,نستله مصر,Ashley Jenkins,0115855647,info@نستله_eg.com,Mirandafurt,549-804-525,Net 30 Days,1,2021-08-08
+6,بيبسيكو (شيبسي - بيبسي),Derek Ochoa,0113001125,info@بيبسيكو_eg.com,Jaredborough,965-416-146,Net 90 Days,0,2019-01-21
+7,كوكاكولا مصر,William Villanueva,0151696279,info@كوكاكولا_eg.com,Welchville,808-946-869,Cash,1,2018-01-03
+8,إيديتا للصناعات الغذائية,Cheyenne Wong,0158309557,info@إيديتا_eg.com,South Crystalmouth,504-357-595,Net 90 Days,0,2020-02-22
+9,يونيليفر مشرق (أومو - ليبتون),Kevin Jimenez,0102696073,info@يونيليفر_eg.com,Port Jeffrey,924-434-945,Net 30 Days,1,2021-02-25
+10,بروكتر آند جامبل (إيريال - بانتين),Erika Esparza,0154780292,info@بروكتر_eg.com,East Ashleyland,389-374-124,Cash,1,2023-02-12
+11,أرما للصناعات الغذائية,Michelle Perez,0117545641,info@أرما_eg.com,Martinhaven,433-916-637,Cash,1,2022-09-20
+12,صافولا مصر (عافية - روابي),Manuel Martinez,0126462374,info@صافولا_eg.com,Mclaughlinmouth,949-636-695,Cash,1,2022-05-02
+13,حلواني إخوان,Stephen Meza,0112782289,info@حلواني_eg.com,Lake Jeffreybury,478-275-560,Net 90 Days,0,2021-04-30
+14,الرشيدي الميزان,Perry Davis,0117447646,info@الرشيدي_eg.com,South Jonathan,823-604-300,Cash,1,2017-03-01
+15,مجموعة فرج الله,Sheila Lopez,0152661521,info@مجموعة_eg.com,West Jamiefort,207-211-429,Cash,1,2019-06-14
+16,دريم,Tiffany Mitchell,0128497358,info@دريم_eg.com,New Cody,267-797-146,Net 60 Days,1,2020-12-23
+17,أبو عوف,Michael Barajas,0121833596,info@أبو_eg.com,Jacobport,419-390-859,Net 60 Days,0,2018-06-14
+18,بسكو مصر (كيلوجز),Aaron Schmitt,0118941269,info@بسكو_eg.com,Port Jacobburgh,832-396-943,Cash,1,2017-07-06
+19,كورونا,Sara Armstrong,0128507757,info@كورونا_eg.com,Jamesfort,951-971-603,Net 60 Days,1,2021-08-29
+20,مونديليز مصر (كادبوري - أوريو),William Wilson,0125031403,info@مونديليز_eg.com,North Jennifer,505-256-263,Net 60 Days,1,2021-07-17
+21,هيرو للصناعات الغذائية (فيتراك),Steven Chavez,0155419446,info@هيرو_eg.com,Barbaraborough,490-955-549,Net 60 Days,1,2019-01-30
+22,أمريكانا للأغذية,Shawn Allen,0126299960,info@أمريكانا_eg.com,Markfort,881-451-425,Net 30 Days,0,2017-02-24
+23,مخابز ريتش بيك,Jeremy Gomez,0127551349,info@مخابز_eg.com,Lake Lisashire,482-198-166,Net 60 Days,1,2023-09-17
+24,هاينز مصر,Ryan Kaufman,0118803649,info@هاينز_eg.com,Port Luisbury,939-583-349,Cash,1,2023-02-15
+25,الضحي للمواد الغذائية,Raymond Mathews,0103482285,info@الضحي_eg.com,North Amy,118-467-854,Net 90 Days,1,2022-04-25
+26,السوهاجي,Shawn Smith,0122860308,info@السوهاجي_eg.com,New Cathyport,456-574-982,Net 60 Days,1,2017-10-19
+27,عاصم للعطارة,Maria Lara MD,0159863959,info@عاصم_eg.com,Port Albertfurt,722-233-398,Net 30 Days,1,2021-12-15
+28,قها للأغذية المحفوظة,Richard Jones,0126127356,info@قها_eg.com,Cruzchester,355-751-596,Net 30 Days,0,2017-03-08
+29,إدفينا,Laura Kirby,0121352748,info@إدفينا_eg.com,North Andrewshire,281-101-257,Net 30 Days,0,2022-05-22
+30,أطياب للحوم المصنعة,Joseph Brown,0102976186,info@أطياب_eg.com,East Marisa,366-321-863,Cash,1,2023-01-13
+31,دواجن كوكي,Angela Morrison,0122160458,info@دواجن_eg.com,Hickmantown,822-217-161,Net 90 Days,1,2018-06-25
+32,الشركة الوطنية للدواجن,Sarah Turner,0104403832,info@الشركة_eg.com,Hillport,843-406-657,Net 90 Days,1,2021-08-26
+33,مزارع دينا,Robert Richardson,0118849745,info@مزارع_eg.com,North Victoria,886-111-675,Net 90 Days,1,2018-12-14
+34,أسماك النيل,Ryan Anderson,0117228675,info@أسماك_eg.com,East Linda,496-763-965,Net 30 Days,1,2021-05-15
+35,الشركة المصرية لتسويق الأسماك,Sarah Torres,0156246392,info@الشركة_eg.com,North Davidmouth,311-359-681,Cash,1,2018-04-06
+36,مزارع الفيروز للخضروات,Sarah Smith,0116034147,info@مزارع_eg.com,Silvaton,287-736-697,Cash,1,2022-04-10
+37,الشركة المتحدة للحوم,Kelly Freeman,0106733166,info@الشركة_eg.com,Loriborough,602-531-101,Net 30 Days,1,2017-05-02
+38,شركة الأهرام للدواجن,Samuel Matthews,0129811556,info@شركة_eg.com,West Juliefurt,999-241-786,Net 30 Days,0,2021-12-15
+39,شركة فاين الصحية,Mario Simmons,0124061053,info@شركة_eg.com,East Victoriaberg,159-119-711,Net 60 Days,1,2023-06-01
+40,ورقيات زينة,Tonya Young,0129126421,info@ورقيات_eg.com,Williamston,831-102-449,Net 60 Days,0,2021-04-24
+41,ريكيت بنكيزر (ديتول),Anna Ferrell,0116069484,info@ريكيت_eg.com,South Victoria,700-410-178,Net 60 Days,1,2020-03-04
+42,لوريال مصر,Austin Larsen,0119043101,info@لوريال_eg.com,North Jennifer,612-886-113,Net 90 Days,1,2023-11-03
+43,جونسون آند جونسون,Joseph Miller,0129386392,info@جونسون_eg.com,East Lauren,692-275-940,Net 30 Days,1,2017-11-05
+44,شركة النيل للزيوت والمنظفات,Tracy Moss,0124878025,info@شركة_eg.com,Johnsonland,331-162-236,Cash,0,2018-01-23
+45,إيفا كوزمتكس,Whitney Morris,0111020838,info@إيفا_eg.com,West Robintown,266-730-308,Net 30 Days,1,2020-06-27
+46,تنمية الصناعات الكيماوية (سيد),Jeffrey Torres,0122209761,info@تنمية_eg.com,Edwinport,929-830-197,Net 90 Days,1,2017-07-02
+47,الهلال والنجمة الفضية (أدوات منزلية),Christopher Griffin,0156657885,info@الهلال_eg.com,Thomasburgh,699-666-584,Net 90 Days,1,2020-05-04
+48,نوفال للأدوات المنزلية,Richard Hayes Jr.,0158281458,info@نوفال_eg.com,Tammyfurt,107-336-863,Net 30 Days,1,2021-10-21
+49,فوري لخدمات الدفع الإلكتروني,David Lee,0118821629,info@فوري_eg.com,Mcdonaldport,572-694-223,Cash,0,2018-09-10
+50,أمان للخدمات المالية,Cameron Mcdaniel,0107337317,info@أمان_eg.com,Popefort,477-344-509,Cash,1,2020-08-25
+51,شركة طلبات للتوصيل,Alyssa Vazquez,0101180964,info@شركة_eg.com,East Kelly,465-284-168,Net 30 Days,1,2017-12-06
+52,الشركة المصرية للتغليف والورق,Shannon Cervantes,0159371366,info@الشركة_eg.com,Port Kenneth,431-336-823,Net 30 Days,1,2018-10-06
+53,ماي فوري,Frank Pearson,0109145877,info@ماي_eg.com,Patricktown,930-921-365,Net 30 Days,1,2020-08-04
+54,فودافون كاش (خدمات الدفع),Brian Russell,0122008818,info@فودافون_eg.com,Port Michelemouth,609-870-728,Net 60 Days,1,2018-07-24
