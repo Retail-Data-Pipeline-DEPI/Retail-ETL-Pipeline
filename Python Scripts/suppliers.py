@@ -2,8 +2,8 @@
 Module: generate_suppliers.py
 Description: Generates a comprehensive synthetic dimension table for suppliers 
              (Dim_Suppliers). Covers major FMCG companies, fresh food farms, 
-             and service providers in Egypt. Incorporates Faker for realistic 
-             contact info and follows Data Engineering best practices.
+             and service providers in Egypt. Uses English-transliterated 
+             Egyptian names and cities for better database compatibility.
 """
 
 import pandas as pd
@@ -11,11 +11,27 @@ import os
 import random
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
-from faker import Faker
 
 # --- Configuration Constants ---
 OUTPUT_DIR = "./data_source/"
 FILE_NAME = "dim_suppliers.csv"
+
+# --- Synthetic Data Lists (English Transliterated) ---
+FIRST_NAMES = [
+    "Ahmed", "Mohamed", "Mahmoud", "Mostafa", "Omar", "Ali", "Karim", 
+    "Tarek", "Youssef", "Khaled", "Amr", "Mina", "Hassan", "Hussein",
+    "Sarah", "Aya", "Nour", "Mai", "Dina", "Salma", "Fatma", "Noha"
+]
+
+LAST_NAMES = [
+    "Ali", "Ibrahim", "Hassan", "Soliman", "Gaber", "Fathy", "Said", 
+    "Tawfik", "Osman", "Mansour", "El-Sayed", "Radwan", "Kamel", "Farouk"
+]
+
+CITIES = [
+    "Cairo", "Giza", "Alexandria", "Al-Zagazig", "10th of Ramadan", 
+    "Tanta", "Mansoura", "Suez", "Port Said", "Ismailia", "Minya", "Assiut"
+]
 
 def get_suppliers_info() -> List[Dict[str, str]]:
     """
@@ -91,8 +107,6 @@ def generate_suppliers_data() -> List[Dict[str, Any]]:
     Iterates over supplier names to generate complete business profiles 
     including tax IDs, payment terms, and contact details.
     """
-    # Initialize Faker with ar_EG locale to generate realistic Arabic contact names and cities
-    fake = Faker('ar_EG')
     suppliers_info = get_suppliers_info()
     suppliers_data: List[Dict[str, Any]] = []
     
@@ -117,13 +131,17 @@ def generate_suppliers_data() -> List[Dict[str, Any]]:
         # Use the mapped English domain for the email
         email = f"info@{info['domain']}"
         
+        # Generate English-written Egyptian name and city
+        contact_name = f"{random.choice(FIRST_NAMES)} {random.choice(LAST_NAMES)}"
+        city_name = random.choice(CITIES)
+        
         suppliers_data.append({
             "supplier_id": i,
             "supplier_name": info['name'],
-            "contact_person": fake.name(),
+            "contact_person": contact_name,
             "phone_number": phone,
             "email": email,
-            "city": fake.city(),
+            "city": city_name,
             "tax_id": tax_id,
             "payment_terms": payment_terms,
             "status": is_active,
@@ -144,7 +162,7 @@ def save_to_csv(data: List[Dict[str, Any]], output_dir: str, file_name: str) -> 
     df_suppliers = pd.DataFrame(data)
     df_suppliers.to_csv(file_path, index=False, encoding='utf-8-sig')
     
-    print(f" Success! Generated {len(df_suppliers)} comprehensive supplier records with English emails.")
+    print(f" Success! Generated {len(df_suppliers)} supplier records with English names and cities.")
     print(f" File saved to: {file_path}")
 
 if __name__ == "__main__":
