@@ -9,6 +9,8 @@ services:
       - MSSQL_SA_PASSWORD=MyPass123 # SSMS Password
     ports:
       - "1433:1433"
+    volumes:
+      - D:/Retail_Project/Dataset:/dataset
 
   # 2. Metadata Container for Airflow (Postgres)
   postgres:
