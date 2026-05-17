@@ -1,5 +1,5 @@
 # ==========================================
-# 🛒 Retail ETL Pipeline - Requirements
+# Retail ETL Pipeline - Requirements
 # ==========================================
 
 # --- Core Data Processing ---
