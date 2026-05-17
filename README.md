@@ -1,4 +1,4 @@
-# 🛒 Retail ETL Pipeline - DEPI Graduation Project
+# Retail ETL Pipeline - DEPI Graduation Project
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
@@ -6,14 +6,14 @@
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 
-## 📌 Overview
+## Overview
 This project is part of the **DEPI (Digital Egypt Pioneers Initiative)** - Microsoft Data Engineering Track. It demonstrates a complete, scalable, and automated ETL (Extract, Transform, Load) pipeline tailored for the retail sector. 
 
 Beyond standard data movement, this pipeline acts as a **Commercial Control Tower**, addressing complex retail challenges such as resolving inventory shrinkage, decoding meat/poultry "Recipe" conversions, and tracking dynamic supplier rebate tiers. It transforms fragmented raw datasets into a "Single Version of Truth" to drive proactive business decisions.
 
 ---
 
-## 👥 1. Project Planning & Management
+## 1. Project Planning & Management
 
 ### 1.1. Team Structure
 This project is architected and executed by a dedicated data engineering team:
@@ -33,7 +33,7 @@ The project follows an iterative, Agile-based approach tailored for data enginee
 
 ---
 
-## 📂 2. Repository Structure
+## 2. Repository Structure
 
 ```text
 Retail-ETL-Pipeline/
