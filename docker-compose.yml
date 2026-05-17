@@ -10,7 +10,8 @@ services:
     ports:
       - "1433:1433"
     volumes:
-      - D:/Retail_Project/Dataset:/dataset
+      - D:/Retail_Project/Dataset:/dataset              # مسارك القديم (عشان الـ BULK INSERT)
+      - mssql_data:/var/opt/mssql/data                  # 👈 الإضافة لحفظ الداتا بيز للأبد
 
   # 2. Metadata Container for Airflow (Postgres)
   postgres:
@@ -20,6 +21,8 @@ services:
       - POSTGRES_USER=airflow
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data          # 👈 الإضافة لحفظ إعدادات Airflow للأبد
 
   # 3. (Airflow)
   airflow:
@@ -31,7 +34,12 @@ services:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
     volumes:
-      - ./dags:/opt/airflow/dags
-      - ./data_source:/opt/airflow/data_source
+      - ./dags:/opt/airflow/dags                        # مسارك القديم
+      - ./data_source:/opt/airflow/data_source          # مسارك القديم
     ports:
       - "8080:8080" #Port for open Airflow
+
+# identifing the volumes for both SQL Server and Postgres to ensure data persistence across container restarts.
+volumes:
+  mssql_data:
+  postgres_data:
