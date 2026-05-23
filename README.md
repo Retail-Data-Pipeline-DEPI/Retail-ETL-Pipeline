@@ -32,3 +32,41 @@ The project follows an iterative, Agile-based approach tailored for data enginee
 5.  **Phase 5: Testing & Documentation:** Validating data quality across the Medallion architecture and finalizing CI/CD & GitHub documentation.
 
 ---
+# 🛒 Retail Data Warehouse & ETL Pipeline (Medallion Architecture)
+
+## 📌 Project Overview
+This project implements an End-to-End automated Data Warehouse and ETL pipeline for a Hypermarket retail business. Built on a Dockerized **SQL Server** environment, the pipeline extracts raw data from multiple disparate sources (ERP inventory and CRM sales), cleanses and harmonizes it, and models it into a high-performance **Star Schema** ready for Business Intelligence (BI) consumption.
+
+The project strictly follows the **Medallion Architecture** (Bronze, Silver, Gold layers) to ensure data quality, traceability, and performance.
+
+## 🗂️ Project Structure
+
+Below is the directory structure of the repository:
+
+```text
+📦 Retail-Data-Warehouse
+ ┣ 📂 BI_Team_Analysis        # Power BI dashboard and exported reports based on the Gold layer
+ ┃ ┣ 📜 analysis dashboard.pbix
+ ┃ ┗ 📜 analysis dashboard.pdf
+ ┣ 📂 Visuals                 # Architectural diagrams and pipeline workflows
+ ┃ ┗ 📜 Medallion Architecture Pipeline
+ ┣ 📂 data_source             # Raw CSV datasets from CRM and ERP systems
+ ┃ ┣ 📜 000.Hypermarket Products.csv
+ ┃ ┣ 📜 001.Alex Branch Sales.csv
+ ┃ ┣ 📜 002.Cairo Branch Sales.csv
+ ┃ ┣ 📜 003.Giza Branch Sales.csv
+ ┃ ┣ 📜 004.Alex Stock.csv
+ ┃ ┣ 📜 005.Cairo Stock.csv
+ ┃ ┗ 📜 006.Giza Stock.csv
+ ┣ 📂 docs                    # Comprehensive project documentation
+ ┃ ┣ 📜 01_Project_Proposal.md
+ ┃ ┣ 📜 02_Requirements.md
+ ┃ ┣ 📜 03_System_Architecture.md
+ ┃ ┣ 📜 04_Testing_and_Deployment.md
+ ┃ ┗ 📜 data_dictionary.md
+ ┣ 📂 sql_scripts             # ETL pipeline stored procedures and schema definitions
+ ┃ ┣ 📜 00_create_database_and_schemas.sql
+ ┃ ┣ 📜 ... (Bronze, Silver, and Gold Layer Scripts)
+ ┃ ┗ 📜 12_rebuild_inventory_pipeline_final_fix.sql
+ ┣ 📜 docker-compose.yml      # Infrastructure setup for SQL Server
+ ┗ 📜 README.md               # Project overview and execution guide
