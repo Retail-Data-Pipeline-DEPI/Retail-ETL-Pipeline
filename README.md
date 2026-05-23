@@ -40,8 +40,7 @@ Retail-Data-Warehouse
  |- docker-compose.yml      # Infrastructure setup for SQL Server
  |- README.md               # Project overview and execution guide
 
----
-د---
+
 ### 1.2. Project Methodology & Timeline
 The project follows an iterative, Agile-based approach tailored for data engineering, divided into the following key phases (Sprints):
 1.  **Phase 1: Planning & Infrastructure Setup:** Defining the architecture, configuring Azure Data Lake Storage (ADLS), and initializing the Apache Airflow environment.
@@ -50,4 +49,4 @@ The project follows an iterative, Agile-based approach tailored for data enginee
 4.  **Phase 4: Orchestration & Automation:** Configuring Apache Airflow DAGs to schedule, monitor, and alert daily workflows.
 5.  **Phase 5: Testing & Documentation:** Validating data quality across the Medallion architecture and finalizing CI/CD & GitHub documentation.
 
----
+
