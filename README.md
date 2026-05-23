@@ -32,10 +32,7 @@ Retail-Data-Warehouse
  |  |- 006.Giza Stock.csv
  |- docs                    # Comprehensive project documentation
  |  |- 01_Project_Proposal.md
- |  |- 02_Requirements.md
- |  |- 03_System_Architecture.md
- |  |- 04_Testing_and_Deployment.md
- |  |- data_dictionary.md
+ |  |- 02_Retail ETL Project.pdf
  |- sql_scripts             # ETL pipeline stored procedures and schema definitions
  |  |- 00_create_database_and_schemas.sql
  |  |- ... (Bronze, Silver, and Gold Layer Scripts)
